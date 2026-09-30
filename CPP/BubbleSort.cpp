@@ -40,11 +40,11 @@ int main()
 {
     vector<int> arr = {2, 1, 3, 7, 6, 9};
 
-    PrintVector(arr, "Before Sorting");
+    PrintVector(arr, "Original array");
 
     BubbleSort(arr);
 
-    PrintVector(arr, "After Sorting");
+    PrintVector(arr, "Sorted array");
 
     return 0;
 }
